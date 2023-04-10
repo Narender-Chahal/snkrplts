@@ -70,7 +70,7 @@ function HeaderSection() {
               </Row>
             </Col>
             <Col lg={6} sm={12} className="pt-4 pt-lg-0">
-              <h1 className="mb-0 pb-xl-3 ff_poppins fw-semibold fs_4xl">
+              <h1 className="mb-0 pb-xl-3 ff_poppins fw-semibold fs_4xl pt-3">
                 PREMIUM MENS SPORTS LATHER KEDS
               </h1>
               <div className="d-flex align-items-center">
@@ -79,19 +79,18 @@ function HeaderSection() {
                   ( 5 Customer Review )
                 </p>
               </div>
-              <p className="mb-0 paragrahp_common pt-xl-4 pt-2 pb-xxl-5 pb-lg-0 pb-3">
+              <p className="mb-0 paragrahp_common pt-xl-4 pt-2 pb-xl-5 pb-lg-0 pb-3">
                 Sed nec ultricies felis, vitae facilisis ipsum. Morbi id turpis
                 euismod, rhoncus tortor quis, lobortis sapien. Sed imperdiet
                 nulla in leo ullamcorper, in finibus elit porta. Sed eget congue
                 neque, mattis finibus neque. In vel dolor ac augue pretium
               </p>
-              <div className="d-flex align-items-center pt-xxl-5 mt-xxl-5">
+              <div className="d-flex align-items-center pt-lg-5 pt-4 mt-xxl-5">
                 <h6 className="mb-0 ff_poppins  fw-medium fs_xl pe-4">Qty: </h6>
-                <div className="border1 d-flex align-items-center ">
+                <div className="border1 d-flex align-items-center justify-content-center">
                   <button
                     onClick={minus}
                     className="ff-josefin fw-normal fs_xl clr_browndark border-0 bg-white"
-                
                   >
                     -
                   </button>
@@ -104,13 +103,11 @@ function HeaderSection() {
                   <button
                     onClick={() => setfirst(first + 1)}
                     className="ff-josefin fw-normal fs_xl clr_browndark2 border-0 bg-white"
-                   
                   >
                     +
                   </button>
-                  
                 </div>
-                <button className="Add-to-Cart_button ff_poppins fw-medium fs_xl ms-sm-3 ms-2">
+                <button className="add_to_card_button ff_poppins fw-medium fs_xl ms-sm-3 ms-2">
                   Add to Cart
                 </button>
               </div>
@@ -118,7 +115,11 @@ function HeaderSection() {
                 <label className="ff_poppins fw-medium fs_xl me-3" for="cars">
                   Size:
                 </label>
-                <select className="border2 mw_100 " id="cars" name="cars">
+                <select
+                  className="border2 mw_100 px-3 arrow"
+                  id="cars"
+                  name="cars"
+                >
                   <option className="ps-2" value="volvo">
                     S
                   </option>
@@ -131,17 +132,17 @@ function HeaderSection() {
                   Color:
                 </h6>
                 <div className="d-flex">
-                  <div className="border3 d-flex align-items-center justify-content-center">
-                    <div className="box_red"></div>
+                  <div className="border3 p-1 d-flex align-items-center justify-content-center">
+                    <div className="box_1"></div>
                   </div>
-                  <div className="border3 ms-2 d-flex align-items-center justify-content-center">
-                    <div className="box_yellow"></div>
+                  <div className="border3 ms-2 p-1 d-flex align-items-center justify-content-center">
+                    <div className="box_2"></div>
                   </div>
-                  <div className="border3 ms-2 d-flex align-items-center justify-content-center">
-                    <div className="box_black"></div>
+                  <div className="border3 ms-2 p-1 d-flex align-items-center justify-content-center">
+                    <div className="box_3"></div>
                   </div>
-                  <div className="border3 ms-2 d-flex align-items-center justify-content-center">
-                    <div className="box_brown"></div>
+                  <div className="border3 ms-2 p-1 d-flex align-items-center justify-content-center">
+                    <div className="box_4"></div>
                   </div>
                 </div>
               </div>

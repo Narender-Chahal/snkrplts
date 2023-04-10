@@ -9,7 +9,7 @@ function LastSection() {
     <section className="bg_black ">
       <Container className="pt-4 pb-5">
         <Row className="justify-content-between">
-          <Col lg={4}>
+          <Col xl={4}>
             <img src={logo_img} alt="logo_img" />
             <p className="mb-0 ff_poppins fw_normal fs_md foter_pargraph_color">
               Sed nec ultricies felis, vitae facilisis ipsum. Morbi id turpis
@@ -17,21 +17,25 @@ function LastSection() {
               in leo ullamcorper, in finibus elit porta.{" "}
             </p>
             <div className="d-flex align-items-center pt-lg-4 mt-3">
-              <a href="#">
+              <a
+                className="hover_transform
+hover_transform"
+                href="#"
+              >
                 {" "}
                 <img src={facebook_img} alt="facebook_img" />
               </a>
-              <a className="ms-4" href="#">
+              <a className="ms-4 hover_transform" href="#">
                 {" "}
                 <img src={twiter} alt="twiter" />{" "}
               </a>{" "}
-              <a className="ms-4" href="#">
+              <a className="ms-4 hover_transform" href="#">
                 {" "}
                 <img src={gogle_img} alt="gogle_img" />
               </a>{" "}
             </div>{" "}
           </Col>
-          <Col lg={7} className="mt-lg-5 pt-5">
+          <Col xl={7} className="mt-xl-5 pt-5">
             <Row>
               <Col lg={3} md={3} xs={6}>
                 <h2 className="mb-0 ff_poppins fw-semibold fs_md pt-1 text-white">

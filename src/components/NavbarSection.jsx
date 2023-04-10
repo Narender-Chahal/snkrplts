@@ -8,9 +8,9 @@ import cross_icon from "../assets/img/png/cross-sign.png";
 function NavbarSection() {
   const [first, setfirst] = useState(true);
   if (first) {
-    document.body.style.overfollow = "visible";
+    document.body.style.overflow = "visible";
   } else {
-    document.body.style.overfollow = "hidden";
+    document.body.style.overflow = "hidden";
   }
   return (
     <section>

@@ -21,22 +21,7 @@ function Related() {
         breakpoint: 8000,
         settings: "unslick",
       },
-      {
-        breakpoint: 1400,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          arrows: false,
-        },
-      },
-      {
-        breakpoint: 1300,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          arrows: false,
-        },
-      },
+      
       {
         breakpoint: 1200,
         settings: {

@@ -20,22 +20,22 @@ function FooterLocker() {
         settings: "unslick",
       },
 
-      {
-        breakpoint: 1400,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          arrows: false,
-        },
-      },
-      {
-        breakpoint: 1300,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          arrows: false,
-        },
-      },
+      // {
+      //   breakpoint: 1400,
+      //   settings: {
+      //     slidesToShow: 3,
+      //     slidesToScroll: 1,
+      //     arrows: false,
+      //   },
+      // },
+      // {
+      //   breakpoint: 1300,
+      //   settings: {
+      //     slidesToShow: 3,
+      //     slidesToScroll: 1,
+      //     arrows: false,
+      //   },
+      // },
       {
         breakpoint: 1200,
         settings: {
@@ -71,13 +71,13 @@ function FooterLocker() {
         </h3>
         <Slider {...settings} className="row">
           <Col
-            xxl={3}
+            xl={3}
             md={6}
             lg={4}
-            className="pt-xl-4 mt-3 mb-3  ps-md-4 pe-xxl-0 pe-md-3 "
+            className="pt-xl-4 mt-3 mb-3  ps-md-4 pe-xl-0 pe-md-3 "
           >
             {" "}
-            <div className="img_box h-100 mb-5">
+            <div className="img_box h-100 mb-2">
               <div className="locker_border d-flex align-items-center justify-content-center py-4">
                 <img src={footlocker} alt="footlocker" />
               </div>
@@ -90,41 +90,33 @@ function FooterLocker() {
                       €179,99
                     </h5>
                   </div>
-                  <button className="best_price_button">Best Price</button>
+                  <button className="best_price_button ff_poppins fw-normal fs_xsm ">
+                    Best Price
+                  </button>
                 </div>
                 <h5 className="mb-0 ff_poppins fw-normal fs_md">Size:</h5>
-                <Row>
-                  <Col lg={4} sm={4} xs={4} className="mt-2">
-                    <button className="mb-0 ff_poppins fw-medium common_size_button fs_md">
-                      41
-                    </button>
-                  </Col>
-                  <Col lg={4} sm={4} xs={4} className="mt-2">
-                    <button className="mb-0 ff_poppins fw-medium common_size_button fs_md">
-                      42
-                    </button>
-                  </Col>
-                  <Col lg={4} sm={4} xs={4} className="mt-2">
-                    <button className="mb-0 ff_poppins fw-medium common_size_button fs_md">
-                      43
-                    </button>
-                  </Col>
-                  <Col lg={4} sm={4} xs={4} className="mt-2">
-                    <button className="mb-0 ff_poppins fw-medium common_size_button fs_md">
-                      44
-                    </button>
-                  </Col>
-                  <Col lg={4} sm={4} xs={4} className="mt-2">
-                    <button className="mb-0 ff_poppins fw-medium common_size_button fs_md">
-                      45
-                    </button>
-                  </Col>
-                  <Col lg={4} sm={4} xs={4} className="mt-2">
-                    <button className="mb-0 ff_poppins fw-medium common_size_button fs_md">
-                      46
-                    </button>
-                  </Col>
-                </Row>
+                <div className="d-flex pt-2">
+                  <button className="mb-0 ff_poppins fw-medium common_size_button fs_md  me-2">
+                    41
+                  </button>{" "}
+                  <button className="mb-0 ff_poppins fw-medium common_size_button fs_md  me-2">
+                    42
+                  </button>{" "}
+                  <button className="mb-0 ff_poppins fw-medium common_size_button fs_md ">
+                    43
+                  </button>
+                </div>
+                <div className="d-flex mt-2 pt-1">
+                  <button className="mb-0 ff_poppins fw-medium common_size_button fs_md  me-2">
+                    44
+                  </button>{" "}
+                  <button className="mb-0 ff_poppins fw-medium common_size_button fs_md  me-2">
+                    45
+                  </button>{" "}
+                  <button className="mb-0 ff_poppins fw-medium common_size_button fs_md ">
+                    46
+                  </button>
+                </div>
                 <p className="mb-0 fw-normal ff_poppins fs_md pt-3">
                   View this product as:
                 </p>
@@ -135,10 +127,10 @@ function FooterLocker() {
             </div>
           </Col>
           <Col
-            xxl={3}
+            xl={3}
             md={6}
             lg={4}
-            className="pt-xl-4 mt-3 mb-3  ps-md-4 pe-xxl-0 pe-md-3 "
+            className="pt-xl-4 mt-3 mb-3  ps-md-4 pe-xl-0 pe-md-3 "
           >
             {" "}
             <div className="img_box h-100">
@@ -154,41 +146,33 @@ function FooterLocker() {
                       €179,99
                     </h5>
                   </div>
-                  <button className="best_price_button">Best Price</button>
+                  <button className="best_price_button ff_poppins fw-normal fs_xsm ">
+                    Best Price
+                  </button>
                 </div>
                 <h5 className="mb-0 ff_poppins fw-normal fs_md">Size:</h5>
-                <Row>
-                  <Col lg={4} sm={4} xs={4} className="mt-2">
-                    <button className="mb-0 ff_poppins fw-medium common_size_button fs_md">
-                      41
-                    </button>
-                  </Col>
-                  <Col lg={4} sm={4} xs={4} className="mt-2">
-                    <button className="mb-0 ff_poppins fw-medium common_size_button fs_md">
-                      42
-                    </button>
-                  </Col>
-                  <Col lg={4} sm={4} xs={4} className="mt-2">
-                    <button className="mb-0 ff_poppins fw-medium common_size_button fs_md">
-                      43
-                    </button>
-                  </Col>
-                  <Col lg={4} sm={4} xs={4} className="mt-2">
-                    <button className="mb-0 ff_poppins fw-medium common_size_button fs_md">
-                      44
-                    </button>
-                  </Col>
-                  <Col lg={4} sm={4} xs={4} className="mt-2">
-                    <button className="mb-0 ff_poppins fw-medium common_size_button fs_md">
-                      45
-                    </button>
-                  </Col>
-                  <Col lg={4} sm={4} xs={4} className="mt-2">
-                    <button className="mb-0 ff_poppins fw-medium common_size_button fs_md">
-                      46
-                    </button>
-                  </Col>
-                </Row>
+                <div className="d-flex pt-2">
+                  <button className="mb-0 ff_poppins fw-medium common_size_button fs_md  me-2">
+                    41
+                  </button>{" "}
+                  <button className="mb-0 ff_poppins fw-medium common_size_button fs_md  me-2">
+                    42
+                  </button>{" "}
+                  <button className="mb-0 ff_poppins fw-medium common_size_button fs_md ">
+                    43
+                  </button>
+                </div>
+                <div className="d-flex mt-2 pt-1">
+                  <button className="mb-0 ff_poppins fw-medium common_size_button fs_md  me-2">
+                    44
+                  </button>{" "}
+                  <button className="mb-0 ff_poppins fw-medium common_size_button fs_md  me-2">
+                    45
+                  </button>{" "}
+                  <button className="mb-0 ff_poppins fw-medium common_size_button fs_md ">
+                    46
+                  </button>
+                </div>
                 <p className="mb-0 fw-normal ff_poppins fs_md pt-3">
                   View this product as:
                 </p>
@@ -199,10 +183,10 @@ function FooterLocker() {
             </div>
           </Col>
           <Col
-            xxl={3}
+            xl={3}
             md={6}
             lg={4}
-            className="pt-xl-4 mt-3 mb-3  ps-md-4 pe-xxl-0 pe-md-3 "
+            className="pt-xl-4 mt-3 mb-3  ps-md-4 pe-xl-0 pe-md-3 "
           >
             {" "}
             <div className="img_box h-100">
@@ -218,41 +202,33 @@ function FooterLocker() {
                       €179,99
                     </h5>
                   </div>
-                  <button className="best_price_button">Best Price</button>
+                  <button className="best_price_button ff_poppins fw-normal fs_xsm ">
+                    Best Price
+                  </button>
                 </div>
                 <h5 className="mb-0 ff_poppins fw-normal fs_md">Size:</h5>
-                <Row>
-                  <Col lg={4} sm={4} xs={4} className="mt-2">
-                    <button className="mb-0 ff_poppins fw-medium common_size_button fs_md">
-                      41
-                    </button>
-                  </Col>
-                  <Col lg={4} sm={4} xs={4} className="mt-2">
-                    <button className="mb-0 ff_poppins fw-medium common_size_button fs_md">
-                      42
-                    </button>
-                  </Col>
-                  <Col lg={4} sm={4} xs={4} className="mt-2">
-                    <button className="mb-0 ff_poppins fw-medium common_size_button fs_md">
-                      43
-                    </button>
-                  </Col>
-                  <Col lg={4} sm={4} xs={4} className="mt-2">
-                    <button className="mb-0 ff_poppins fw-medium common_size_button fs_md">
-                      44
-                    </button>
-                  </Col>
-                  <Col lg={4} sm={4} xs={4} className="mt-2">
-                    <button className="mb-0 ff_poppins fw-medium common_size_button fs_md">
-                      45
-                    </button>
-                  </Col>
-                  <Col lg={4} sm={4} xs={4} className="mt-2">
-                    <button className="mb-0 ff_poppins fw-medium common_size_button fs_md">
-                      46
-                    </button>
-                  </Col>
-                </Row>
+                <div className="d-flex pt-2">
+                  <button className="mb-0 ff_poppins fw-medium common_size_button fs_md  me-2">
+                    41
+                  </button>{" "}
+                  <button className="mb-0 ff_poppins fw-medium common_size_button fs_md  me-2">
+                    42
+                  </button>{" "}
+                  <button className="mb-0 ff_poppins fw-medium common_size_button fs_md ">
+                    43
+                  </button>
+                </div>
+                <div className="d-flex mt-2 pt-1">
+                  <button className="mb-0 ff_poppins fw-medium common_size_button fs_md  me-2">
+                    44
+                  </button>{" "}
+                  <button className="mb-0 ff_poppins fw-medium common_size_button fs_md  me-2">
+                    45
+                  </button>{" "}
+                  <button className="mb-0 ff_poppins fw-medium common_size_button fs_md ">
+                    46
+                  </button>
+                </div>
                 <p className="mb-0 fw-normal ff_poppins fs_md pt-3">
                   View this product as:
                 </p>
@@ -263,10 +239,10 @@ function FooterLocker() {
             </div>
           </Col>
           <Col
-            xxl={3}
+            xl={3}
             md={6}
             lg={4}
-            className="pt-xl-4 mt-3 mb-3  ps-md-4 pe-xxl-0 pe-md-3 "
+            className="pt-xl-4 mt-3 mb-3  ps-md-4 pe-xl-0 pe-md-3 "
           >
             {" "}
             <div className="img_box h-100">
@@ -282,41 +258,33 @@ function FooterLocker() {
                       €179,99
                     </h5>
                   </div>
-                  <button className="best_price_button">Best Price</button>
+                  <button className="best_price_button ff_poppins fw-normal fs_xsm  ff_poppins fw-normal fs_xsm ">
+                    Best Price
+                  </button>
                 </div>
                 <h5 className="mb-0 ff_poppins fw-normal fs_md">Size:</h5>
-                <Row>
-                  <Col lg={4} sm={4} xs={4} className="mt-2">
-                    <button className="mb-0 ff_poppins fw-medium common_size_button fs_md">
-                      41
-                    </button>
-                  </Col>
-                  <Col lg={4} sm={4} xs={4} className="mt-2">
-                    <button className="mb-0 ff_poppins fw-medium common_size_button fs_md">
-                      42
-                    </button>
-                  </Col>
-                  <Col lg={4} sm={4} xs={4} className="mt-2">
-                    <button className="mb-0 ff_poppins fw-medium common_size_button fs_md">
-                      43
-                    </button>
-                  </Col>
-                  <Col lg={4} sm={4} xs={4} className="mt-2">
-                    <button className="mb-0 ff_poppins fw-medium common_size_button fs_md">
-                      44
-                    </button>
-                  </Col>
-                  <Col lg={4} sm={4} xs={4} className="mt-2">
-                    <button className="mb-0 ff_poppins fw-medium common_size_button fs_md">
-                      45
-                    </button>
-                  </Col>
-                  <Col lg={4} sm={4} xs={4} className="mt-2">
-                    <button className="mb-0 ff_poppins fw-medium common_size_button fs_md">
-                      46
-                    </button>
-                  </Col>
-                </Row>
+                <div className="d-flex pt-2">
+                  <button className="mb-0 ff_poppins fw-medium common_size_button fs_md  me-2">
+                    41
+                  </button>{" "}
+                  <button className="mb-0 ff_poppins fw-medium common_size_button fs_md  me-2">
+                    42
+                  </button>{" "}
+                  <button className="mb-0 ff_poppins fw-medium common_size_button fs_md ">
+                    43
+                  </button>
+                </div>
+                <div className="d-flex mt-2 pt-1">
+                  <button className="mb-0 ff_poppins fw-medium common_size_button fs_md  me-2">
+                    44
+                  </button>{" "}
+                  <button className="mb-0 ff_poppins fw-medium common_size_button fs_md  me-2">
+                    45
+                  </button>{" "}
+                  <button className="mb-0 ff_poppins fw-medium common_size_button fs_md ">
+                    46
+                  </button>
+                </div>
                 <p className="mb-0 fw-normal ff_poppins fs_md pt-3">
                   View this product as:
                 </p>
