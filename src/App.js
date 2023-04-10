@@ -12,23 +12,41 @@ import Related from "./components/Related";
 import LastSection from "./components/LastSection";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+import logo_img from "./assets/img/png/footer_logo.png";
 function App() {
+  const [loading, setLoading] = useState(false);
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 4000);
+  }, []);
   useEffect(() => {
     AOS.init({
       once: true,
-      duration: 600,
-      delay: 100,
+      duration: 800,
+      delay: 200,
     });
   }, []);
   return (
     <>
-      <NavbarSection />
-      <HeaderSection />
-      <FooterLocker />
-      <DESCRIPTION />
-      <Related />
-      <LastSection />
+      {loading ? (
+        <div className="preloader_bg d-flex align-items-center justify-content-center">
+          <div className="preloader">
+            <img src={logo_img} alt="logo_img" />
+          </div>
+        </div>
+      ) : (
+        <>
+          <NavbarSection />
+          <HeaderSection />
+          <FooterLocker />
+          <DESCRIPTION />
+          <Related />
+          <LastSection />
+        </>
+      )}
     </>
   );
 }

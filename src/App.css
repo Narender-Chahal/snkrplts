@@ -135,6 +135,12 @@
   font-size: 20px;
   color: #666666;
 }
+.paragrahp_common1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #4d4d4d;
+}
 .add_to_card_button {
   background: #28a745;
   border-radius: 21px;
@@ -205,6 +211,29 @@ ul {
 .clr_copyright {
   color: #b9b9b9;
 }
+.preloader_bg {
+  min-height: 100vh;
+  background-color: white;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.preloader {
+  animation: loder_img 4s linear infinite;
+}
+@keyframes loder_img {
+  0% {
+    scale: 1;
+  }
+  50% {
+    scale: 2;
+  }
+  100% {
+    scale: 1;
+  }
+}
 /* ----hover------ */
 .hover_line::after {
   position: absolute;
@@ -217,12 +246,21 @@ ul {
   transform: translateX(-50%);
   transition: all 300ms ease-in-out;
 }
+.cursor_pointer {
+  cursor: pointer;
+}
 .hover_transform {
   transition: all 0.5s ease-in-out;
 }
 .hover_transform:hover {
   transform: translateY(-8px);
   transition: all 0.5s ease-in-out;
+}
+.hover_transform_20 {
+  transition: all 0.4s ease-in-out;
+}
+.hover_transform_20:hover {
+  transform: translateY(-20%);
 }
 .hover_line:after {
   width: 100%;
@@ -240,7 +278,7 @@ ul {
   transform: translateY(-5px);
   transition: all 0.5s ease-in-out;
 }
-.img_box{
+.img_box {
   transition: all 0.5s ease-in-out;
 }
 .img_box:hover {
@@ -283,7 +321,7 @@ select {
 .border3 {
   border: 1px solid #d5d5d5;
   border-radius: 2px;
-  
+  cursor: pointer;
 }
 .locker_border {
   background: #ffffff;
@@ -294,21 +332,25 @@ select {
   background: #cc111c;
   height: 29px;
   width: 29px;
+  cursor: pointer;
 }
 .box_2 {
   background: #aa9e78;
   height: 29px;
   width: 29px;
+  cursor: pointer;
 }
 .box_3 {
   background: #16141f;
   height: 29px;
   width: 29px;
+  cursor: pointer;
 }
 .box_4 {
   background: #808082;
   height: 29px;
   width: 29px;
+  cursor: pointer;
 }
 .icons {
   background: #000;

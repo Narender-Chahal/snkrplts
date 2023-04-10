@@ -38,7 +38,9 @@ function DESCRIPTION() {
             REVIEWS (1)
           </button>{" "}
         </div>
-        <p className={first == 1 ? " paragrahp_common pt-lg-4 pt-3" : "d-none"}>
+        <p
+          className={first == 1 ? " paragrahp_common1 pt-lg-4 pt-3" : "d-none"}
+        >
           Sed nec ultricies felis, vitae facilisis ipsum. Morbi id turpis
           euismod, rhoncus tortor quis, lobortis sapien. Sed imperdiet nulla in
           leo ullamcorper, in finibus elit porta. Sed eget congue neque, mattis
@@ -47,7 +49,9 @@ function DESCRIPTION() {
           euismod, vel consequat ipsum luctus. Morbi auctor vulputate hendrerit.
           Etiam vel lectus tortor. Pellentesque non pharetra mi. Cura{" "}
         </p>
-        <p className={first == 2 ? " paragrahp_common pt-lg-4 pt-3" : "d-none"}>
+        <p
+          className={first == 2 ? " paragrahp_common1 pt-lg-4 pt-3" : "d-none"}
+        >
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem
           aliquid architecto id, earum officia non explicabo quam excepturi
           impedit iste vitae esse saepe veritatis totam at accusantium neque
@@ -55,7 +59,9 @@ function DESCRIPTION() {
           tenetur mollitia. Ea omnis et sapiente quam voluptatem distinctio
           exercitationem nostrum, voluptas placeat reprehenderit voluptate?
         </p>
-        <p className={first == 3 ? " paragrahp_common pt-lg-4 pt-3" : "d-none"}>
+        <p
+          className={first == 3 ? " paragrahp_common1 pt-lg-4 pt-3" : "d-none"}
+        >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
           voluptatibus incidunt ut reiciendis nemo dolorum dolore, fugit
           corporis odit, laborum laudantium cum omnis distinctio velit in id!
