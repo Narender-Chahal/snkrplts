@@ -19,7 +19,7 @@ function HeaderSection() {
   };
   return (
     <>
-      <section className="pt-lg-5 mt-4">
+      <section className="pt-lg-5 mt-xl-4">
         <Container>
           <Row className="justify-content-center ">
             <Col lg={6}>
@@ -85,7 +85,7 @@ function HeaderSection() {
                 nulla in leo ullamcorper, in finibus elit porta. Sed eget congue
                 neque, mattis finibus neque. In vel dolor ac augue pretium
               </p>
-              <div className="d-flex align-items-center pt-lg-5 pt-4 mt-xxl-5">
+              <div className="d-flex align-items-center pt-xxl-5 pt-3 mt-xxl-5">
                 <h6 className="mb-0 ff_poppins  fw-medium fs_xl pe-4">Qty: </h6>
                 <div className="border1 d-flex align-items-center justify-content-center">
                   <button
