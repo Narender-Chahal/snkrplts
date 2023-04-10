@@ -4,7 +4,7 @@ import { Container } from "react-bootstrap";
 function DESCRIPTION() {
   const [first, setfirst] = useState(1);
   return (
-    <section className="">
+    <section data-aos="fade-up" data-aos-duration="3000">
       <Container>
         <div className=" flex-sm-row d-flex d-sm-block align-items-start align-items-sm-center flex-column">
           <button

@@ -6,7 +6,11 @@ import gogle_img from "../assets/img/gogle.svg";
 import twiter from "../assets/img/twiter.svg";
 function LastSection() {
   return (
-    <section className="bg_black ">
+    <section
+      className="bg_black  "
+      data-aos="fade-dawn"
+      data-aos-duration="3000"
+    >
       <Container className="pt-4 pb-5">
         <Row className="justify-content-between">
           <Col xl={4}>

@@ -21,7 +21,7 @@ function Related() {
         breakpoint: 8000,
         settings: "unslick",
       },
-      
+
       {
         breakpoint: 1200,
         settings: {
@@ -58,7 +58,11 @@ function Related() {
     ],
   };
   return (
-    <section className="py-xl-5 py-4 mb-lg-5">
+    <section
+      className="py-xl-5 py-4 mb-lg-5"
+      data-aos="fade-dawn"
+      data-aos-duration="3000"
+    >
       <Container>
         <h2 className="mb-0 ff_poppins fw-semibold fs_4xl">RELATED PRODUCT</h2>
         <Slider {...settings} className="row">
