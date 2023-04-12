@@ -112,9 +112,12 @@ function FooterLocker() {
                 <p className="mb-0 fw-normal ff_poppins fs_md pt-3">
                   View this product as:
                 </p>
-                <h4 className="mb-0 ff_poppins fw_semibold fs_md color_blue pt-2">
+                <a
+                  className="mb-0 ff_poppins fw_semibold fs_md color_blue locker_hover pt-2"
+                  href="#"
+                >
                   Foot Locker NL
-                </h4>
+                </a>
               </div>
             </div>
           </Col>
@@ -168,9 +171,12 @@ function FooterLocker() {
                 <p className="mb-0 fw-normal ff_poppins fs_md pt-3">
                   View this product as:
                 </p>
-                <h4 className="mb-0 ff_poppins fw_semibold fs_md color_blue pt-2">
+                <a
+                  className="mb-0 ff_poppins fw_semibold fs_md color_blue locker_hover pt-2"
+                  href="#"
+                >
                   Foot Locker NL
-                </h4>
+                </a>
               </div>
             </div>
           </Col>
@@ -224,9 +230,12 @@ function FooterLocker() {
                 <p className="mb-0 fw-normal ff_poppins fs_md pt-3">
                   View this product as:
                 </p>
-                <h4 className="mb-0 ff_poppins fw_semibold fs_md color_blue pt-2">
+                <a
+                  className="mb-0 ff_poppins fw_semibold fs_md color_blue locker_hover pt-2"
+                  href="#"
+                >
                   Foot Locker NL
-                </h4>
+                </a>
               </div>
             </div>
           </Col>
@@ -280,9 +289,12 @@ function FooterLocker() {
                 <p className="mb-0 fw-normal ff_poppins fs_md pt-3">
                   View this product as:
                 </p>
-                <h4 className="mb-0 ff_poppins fw_semibold fs_md color_blue pt-2">
+                <a
+                  className="mb-0 ff_poppins fw_semibold fs_md color_blue locker_hover pt-2"
+                  href="#"
+                >
                   Foot Locker NL
-                </h4>
+                </a>
               </div>
             </div>
           </Col>

@@ -114,7 +114,10 @@
   cursor: pointer;
 }
 .shoes_box:hover {
-  box-shadow: 1px 5px 24px 5px rgba(131, 127, 127, 0.923);
+  transform: scale(1.04);
+}
+.locker_hover {
+  color: #007bff !important;
 }
 .box_10per {
   background: #d36b31;

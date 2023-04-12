@@ -55,11 +55,11 @@ function NavbarSection() {
               <img src={cross_icon} alt="cross_icon" />
             </a>
             <li>
-              <a className="nav_link" href="#">
+              <a  className="nav_link" href="#">
                 HOME
               </a>
             </li>
-            <li className="ps-lg-3 mt-4 mt-lg-0">
+            <li  className="ps-lg-3 mt-4 mt-lg-0">
               <a className="nav_link" href="#">
                 SNEAKERS KOPEN
               </a>

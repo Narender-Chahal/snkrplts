@@ -127,19 +127,19 @@ function HeaderSection() {
                 <div className="border1 d-flex align-items-center justify-content-center">
                   <button
                     onClick={minus}
-                    className="ff-josefin fw-normal fs_xl clr_browndark border-0 bg-white"
+                    className="ff_josefin fw-normal fs_xl clr_browndark border-0 bg-white"
                   >
                     -
                   </button>
                   <p
-                    className="ff-josefin fw-normal fs_xl clr_browndark2 mb-0 px-3"
+                    className="ff_josefin fw-normal fs_xl clr_browndark2 mb-0 px-3"
                     href="#"
                   >
                     {first}
                   </p>
                   <button
                     onClick={() => setfirst(first + 1)}
-                    className="ff-josefin fw-normal fs_xl clr_browndark2 border-0 bg-white"
+                    className="ff_josefin fw-normal fs_xl clr_browndark2 border-0 bg-white"
                   >
                     +
                   </button>
@@ -153,11 +153,14 @@ function HeaderSection() {
                   Size:
                 </label>
                 <select
-                  className="border2 mw_100 px-3 arrow"
+                  className="border2 mw_100 px-3 arrow ff_josefin fw-normal fs_xl"
                   id="cars"
                   name="cars"
                 >
-                  <option className="ps-2" value="volvo">
+                  <option
+                    className="ps-2 ff_josefin fw-normal fs_xl"
+                    value="volvo"
+                  >
                     S
                   </option>
                   <option value="saab">m</option>
