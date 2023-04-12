@@ -1,16 +1,38 @@
-import React from "react";
+import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import logo_img from "../assets/img/png/footer_logo.png";
 import facebook_img from "../assets/img/facebook.svg";
 import gogle_img from "../assets/img/gogle.svg";
 import twiter from "../assets/img/twiter.svg";
+import back_to_top_img from "../assets/img/png/back_to_top_.png";
 function LastSection() {
+  const [first, setfirst] = useState(false);
+  const movetotop = () => {
+    document.documentElement.scrollTop = 0;
+  };
+  window.addEventListener("scroll", () => {
+    if (document.documentElement.scrollTop > 200) {
+      setfirst(true);
+    } else {
+      setfirst(false);
+    }
+  });
   return (
     <section
-      className="bg_black  "
-      data-aos="fade-dawn"
-      data-aos-duration="3000"
+      className="bg_black position-relative "
+      // data-aos="fade-dawn"
+      // data-aos-duration="3000"
     >
+      <button
+        className={
+          first
+            ? " border-0 position-fixed end-0 bottom-0 rounded-4 m-4 transform_20"
+            : "position-fixed end-0 bottom-0 d-none"
+        }
+        onClick={() => movetotop()}
+      >
+        <img src={back_to_top_img} alt="back_to_top_img" />
+      </button>
       <Container className="pt-4 pb-5">
         <Row className="justify-content-between">
           <Col xl={4}>

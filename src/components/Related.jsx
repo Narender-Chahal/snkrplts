@@ -65,7 +65,7 @@ function Related() {
     >
       <Container>
         <h2 className="mb-0 ff_poppins fw-semibold fs_4xl">RELATED PRODUCT</h2>
-        <Slider {...settings} className="row">
+        <Slider {...settings} className="row pb-4 pb-xl-0">
           <Col lg={3} sm={4} className="pt-lg-4 mt-2 px-2">
             <div className="shoes_box ">
               <div className="position-relative ">
@@ -95,9 +95,9 @@ function Related() {
                       </h3>
                     </div>
                   </div>
-                  <div>
+                  <a href="#">
                     <img className="w-100" src={img1} alt="img1" />
-                  </div>
+                  </a>{" "}
                 </div>
                 <div className="pt-3">
                   <img src={black_star} alt="black_star" />
@@ -134,9 +134,9 @@ function Related() {
                       </h3>
                     </div>
                   </div>
-                  <div>
+                  <a href="#">
                     <img className="w-100" src={img1} alt="img1" />
-                  </div>
+                  </a>{" "}
                 </div>
                 <div className="pt-3">
                   <img src={black_star} alt="black_star" />
@@ -173,9 +173,9 @@ function Related() {
                       </h3>
                     </div>
                   </div>
-                  <div>
+                  <a href="#">
                     <img className="w-100" src={img1} alt="img1" />
-                  </div>
+                  </a>{" "}
                 </div>
                 <div className="pt-3">
                   <img src={black_star} alt="black_star" />
@@ -212,9 +212,9 @@ function Related() {
                       </h3>
                     </div>
                   </div>
-                  <div>
+                  <a href="#">
                     <img className="w-100" src={img1} alt="img1" />
-                  </div>
+                  </a>{" "}
                 </div>
                 <div className="pt-3">
                   <img src={black_star} alt="black_star" />
@@ -251,9 +251,9 @@ function Related() {
                       </h3>
                     </div>
                   </div>
-                  <div>
+                  <a href="#">
                     <img className="w-100" src={img1} alt="img1" />
-                  </div>
+                  </a>{" "}
                 </div>
                 <div className="pt-3">
                   <img src={black_star} alt="black_star" />
@@ -290,9 +290,9 @@ function Related() {
                       </h3>
                     </div>
                   </div>
-                  <div>
+                  <a href="#">
                     <img className="w-100" src={img1} alt="img1" />
-                  </div>
+                  </a>{" "}
                 </div>
                 <div className="pt-3">
                   <img src={black_star} alt="black_star" />
@@ -329,9 +329,9 @@ function Related() {
                       </h3>
                     </div>
                   </div>
-                  <div>
+                  <a href="#">
                     <img className="w-100" src={img1} alt="img1" />
-                  </div>
+                  </a>{" "}
                 </div>
                 <div className="pt-3">
                   <img src={black_star} alt="black_star" />
@@ -368,9 +368,9 @@ function Related() {
                       </h3>
                     </div>
                   </div>
-                  <div>
+                  <a href="#">
                     <img className="w-100" src={img1} alt="img1" />
-                  </div>
+                  </a>{" "}
                 </div>
                 <div className="pt-3">
                   <img src={black_star} alt="black_star" />

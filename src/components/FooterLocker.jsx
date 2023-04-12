@@ -20,26 +20,10 @@ function FooterLocker() {
         settings: "unslick",
       },
 
-      // {
-      //   breakpoint: 1400,
-      //   settings: {
-      //     slidesToShow: 3,
-      //     slidesToScroll: 1,
-      //     arrows: false,
-      //   },
-      // },
-      // {
-      //   breakpoint: 1300,
-      //   settings: {
-      //     slidesToShow: 3,
-      //     slidesToScroll: 1,
-      //     arrows: false,
-      //   },
-      // },
       {
         breakpoint: 1200,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 3,
           slidesToScroll: 1,
           arrows: false,
         },
@@ -55,6 +39,14 @@ function FooterLocker() {
       },
       {
         breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          arrows: false,
+        },
+      },
+      {
+        breakpoint: 576,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -74,7 +66,7 @@ function FooterLocker() {
             xl={3}
             md={6}
             lg={4}
-            className="pt-xl-4 mt-3 mb-3  ps-md-4 pe-xl-0 pe-md-3 "
+            className="pt-xl-4 mt-3 mb-3  ps-md-4 pe-xl-0 px-3 "
           >
             {" "}
             <div className="img_box h-100 mb-2">
@@ -95,7 +87,7 @@ function FooterLocker() {
                   </button>
                 </div>
                 <h5 className="mb-0 ff_poppins fw-normal fs_md">Size:</h5>
-                <div className="d-flex pt-2">
+                <div className="d-flex justify-content-between pt-2">
                   <button className="mb-0 ff_poppins fw-medium common_size_button fs_md  me-2">
                     41
                   </button>{" "}
@@ -106,7 +98,7 @@ function FooterLocker() {
                     43
                   </button>
                 </div>
-                <div className="d-flex mt-2 pt-1">
+                <div className="d-flex justify-content-between mt-2 pt-1">
                   <button className="mb-0 ff_poppins fw-medium common_size_button fs_md  me-2">
                     44
                   </button>{" "}
@@ -130,7 +122,7 @@ function FooterLocker() {
             xl={3}
             md={6}
             lg={4}
-            className="pt-xl-4 mt-3 mb-3  ps-md-4 pe-xl-0 pe-md-3 "
+            className="pt-xl-4 mt-3 mb-3  ps-md-4 pe-xl-0 px-3 "
           >
             {" "}
             <div className="img_box h-100">
@@ -151,7 +143,7 @@ function FooterLocker() {
                   </button>
                 </div>
                 <h5 className="mb-0 ff_poppins fw-normal fs_md">Size:</h5>
-                <div className="d-flex pt-2">
+                <div className="d-flex justify-content-between pt-2">
                   <button className="mb-0 ff_poppins fw-medium common_size_button fs_md  me-2">
                     41
                   </button>{" "}
@@ -162,7 +154,7 @@ function FooterLocker() {
                     43
                   </button>
                 </div>
-                <div className="d-flex mt-2 pt-1">
+                <div className="d-flex justify-content-between mt-2 pt-1">
                   <button className="mb-0 ff_poppins fw-medium common_size_button fs_md  me-2">
                     44
                   </button>{" "}
@@ -186,7 +178,7 @@ function FooterLocker() {
             xl={3}
             md={6}
             lg={4}
-            className="pt-xl-4 mt-3 mb-3  ps-md-4 pe-xl-0 pe-md-3 "
+            className="pt-xl-4 mt-3 mb-xl-3 mb-4 pb-4 pb-xl-0   ps-md-4 pe-xl-0 px-3 "
           >
             {" "}
             <div className="img_box h-100">
@@ -207,7 +199,7 @@ function FooterLocker() {
                   </button>
                 </div>
                 <h5 className="mb-0 ff_poppins fw-normal fs_md">Size:</h5>
-                <div className="d-flex pt-2">
+                <div className="d-flex justify-content-between pt-2">
                   <button className="mb-0 ff_poppins fw-medium common_size_button fs_md  me-2">
                     41
                   </button>{" "}
@@ -218,7 +210,7 @@ function FooterLocker() {
                     43
                   </button>
                 </div>
-                <div className="d-flex mt-2 pt-1">
+                <div className="d-flex justify-content-between mt-2 pt-1">
                   <button className="mb-0 ff_poppins fw-medium common_size_button fs_md  me-2">
                     44
                   </button>{" "}
@@ -242,7 +234,7 @@ function FooterLocker() {
             xl={3}
             md={6}
             lg={4}
-            className="pt-xl-4 mt-3 mb-3  ps-md-4 pe-xl-0 pe-md-3 "
+            className="pt-xl-4 mt-3 mb-3  ps-md-4 pe-xl-0 px-3 "
           >
             {" "}
             <div className="img_box h-100">
@@ -263,7 +255,7 @@ function FooterLocker() {
                   </button>
                 </div>
                 <h5 className="mb-0 ff_poppins fw-normal fs_md">Size:</h5>
-                <div className="d-flex pt-2">
+                <div className="d-flex justify-content-between pt-2">
                   <button className="mb-0 ff_poppins fw-medium common_size_button fs_md  me-2">
                     41
                   </button>{" "}
@@ -274,7 +266,7 @@ function FooterLocker() {
                     43
                   </button>
                 </div>
-                <div className="d-flex mt-2 pt-1">
+                <div className="d-flex justify-content-between mt-2 pt-1">
                   <button className="mb-0 ff_poppins fw-medium common_size_button fs_md  me-2">
                     44
                   </button>{" "}

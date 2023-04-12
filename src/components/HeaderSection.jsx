@@ -29,30 +29,40 @@ function HeaderSection() {
         <Container>
           <Row className="justify-content-center ">
             <Col lg={6}>
-              <div className="text-center">
+              <div className="text-center d-flex justify-content-center">
                 <img
-                  className={ch === 2 ? "d-block w-100" : "d-none"}
+                  className={
+                    ch === 2
+                      ? "d-block  head_img_width head_img_height"
+                      : "d-none"
+                  }
                   src={head_img}
                   alt="head_img"
                 />
                 <img
-                  className={ch === 3 ? "d-block w-100" : "d-none"}
-                  height="600px"
+                  className={
+                    ch === 3
+                      ? "d-block head_img_width head_img_height"
+                      : "d-none"
+                  }
                   width="100%"
                   src={head_shoes3}
                   alt="head_shoes3"
                 />
                 <img
-                  className={ch === 4 ? "d-block w-100" : "d-none"}
-                  height="600px"
+                  className={
+                    ch === 4
+                      ? "d-block head_img_width head_img_height"
+                      : "d-none"
+                  }
                   width="100%"
                   src={head_shoes4}
                   alt="head_shoes4"
                 />
-                <div className={ch === 1 ? "d-block w-100" : "d-none"}>
+                <div className={ch === 1 ? "d-block " : "d-none"}>
                   {" "}
                   <img
-                    height="600px"
+                    className="head_img_width head_img_height"
                     width="100%"
                     src={head_shoes1}
                     alt="head_shoes1"
@@ -96,7 +106,7 @@ function HeaderSection() {
                 </Col>
               </Row>
             </Col>
-            <Col lg={6} sm={12} className="pt-4 pt-lg-0">
+            <Col lg={6} sm={12} className="pt-4 pt-lg-0 ps-xl-4">
               <h1 className="mb-0 pb-xl-3 ff_poppins fw-semibold fs_4xl pt-3">
                 PREMIUM MENS SPORTS LATHER KEDS
               </h1>
@@ -174,14 +184,17 @@ function HeaderSection() {
                 </div>
               </div>
               <div className="pt-xl-4 pt-3 d-flex mt-2 align-items-center pb-4">
-                <a className="d-flex align_items_center " href="#">
+                <a className="d-flex align_items_center hover_stroke" href="#">
                   {" "}
                   <img src={compair_img} alt="compair_img" />
                   <p className="mb-0 ff_poppins fw_lighter fs_md ps-1 clr_lightblack">
                     Compare
                   </p>
                 </a>
-                <a className="d-flex align_items_center ms-4" href="#">
+                <a
+                  className="d-flex align_items_center ms-4 hover_stroke"
+                  href="#"
+                >
                   <img src={whishlist_img} alt="whishlist_img" />
                   <p className="mb-0 ff_poppins fw_lighter fs_md ps-2 clr_lightblack">
                     Wishlist
@@ -216,7 +229,7 @@ function HeaderSection() {
                 </a>
                 <a className="ms-4 " href="#">
                   <img
-                    className="hover_transform_10"
+                    className="hover_transform_20"
                     src={google}
                     alt="google"
                   />

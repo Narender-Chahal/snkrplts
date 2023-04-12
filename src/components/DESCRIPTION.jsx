@@ -6,7 +6,7 @@ function DESCRIPTION() {
   return (
     <section data-aos="fade-up" data-aos-duration="3000">
       <Container>
-        <div className=" flex-sm-row d-flex d-sm-block align-items-start align-items-sm-center flex-column">
+        <div className=" flex-sm-row d-flex d-sm-block align-items-start align-items-sm-center pt-4 pt-xl-0 flex-column">
           <button
             onClick={() => setfirst(1)}
             className={
@@ -22,7 +22,7 @@ function DESCRIPTION() {
             className={
               first === 2
                 ? "active_red ff_poppins bg-transparent hover_line fw-normal border-0 fs_xl position-relative me-md-5  fs_xsm_22 me-sm-5 me-3 mt-2 mt-sm-0"
-                : " ff_poppins bg-transparent  fw-normal border-0 fs_xl position-relative me-md-5 fs_xsm_22  me-sm-5 me-3 mt-2 mt-sm-0"
+                : " ff_poppins bg-transparent  fw-normal border-0 fs_xl position-relative me-md-5 fs_xsm_22  me-sm-5  mt-2 mt-sm-0"
             }
           >
             ADDITIONAL INFORMATION{" "}

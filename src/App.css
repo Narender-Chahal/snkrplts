@@ -93,7 +93,7 @@
 }
 .img_box {
   background: #ffffff;
-  box-shadow: 23px 44px 47px rgba(107, 104, 104, 0.2);
+  box-shadow: 23px 44px 47px rgba(190, 186, 186, 0.2);
   border-radius: 10px;
 }
 .new_button {
@@ -110,6 +110,11 @@
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.12);
   border-radius: 17px;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+.shoes_box:hover {
+  box-shadow: 1px 5px 24px 5px rgba(131, 127, 127, 0.923);
 }
 .box_10per {
   background: #d36b31;
@@ -256,6 +261,14 @@ ul {
   transform: translateY(-8px);
   transition: all 0.5s ease-in-out;
 }
+.transform_20 {
+  animation: updawn 5s 2s ease-in infinite;
+}
+@keyframes updawn {
+  50% {
+    transform: translateY(-50%);
+  }
+}
 .hover_transform_20 {
   transition: all 0.4s ease-in-out;
 }
@@ -269,6 +282,12 @@ ul {
 .nav_link:hover {
   -webkit-text-stroke-width: 0.8px;
   color: #000000;
+}
+.hover_stroke {
+  transition: all 0.8s ease-in-out;
+}
+.hover_stroke:hover {
+  -webkit-text-stroke-width: 0.8px;
 }
 .clr_hover_red:focus {
   color: #ff0000 !important ;
@@ -397,18 +416,26 @@ select {
   transition: all 0.5s ease-in-out;
 }
 .button_next:hover {
-  border: 1px solid #9c9c9c;
+  border: 1px solid #ff4400;
   border-radius: 9px;
   color: white;
-  background-color: #555555;
+  background-color: #ff4400;
   padding: 12px 17px;
 }
 .bg_black {
   background-color: #0d0d0d;
 }
 .head_img_width {
-  width: 100%;
+  width: 100% !important;
 }
+.head_img_height {
+  height: 600px !important;
+}
+.slick-dots li button:before {
+  font-size: 16px !important;
+  line-height: 3px !important;
+}
+
 @media (max-width: 1200px) {
   :root {
     --fs-xsm: 10px;
@@ -429,8 +456,11 @@ select {
   }
   .img_box {
     background: #ffffff;
-    box-shadow: 23px 44px 47px rgba(181, 176, 176, 0.2);
+    box-shadow: 25px 10px 50px 47px rgba(244, 242, 242, 0.553);
     border-radius: 10px;
+  }
+  .head_img_height {
+    height: 430px !important;
   }
 }
 @media (max-width: 992px) {
@@ -447,7 +477,10 @@ select {
     z-index: 1;
   }
   .head_img_width {
-    width: 450px;
+    width: 450px !important;
+  }
+  .head_img_height {
+    height: 420px !important;
   }
   .hide_nav {
     position: fixed;
@@ -456,6 +489,7 @@ select {
     background: #ffffff;
     min-height: 100vh;
     width: 100%;
+    z-index: 1;
     transition: all 1s ease-in-out;
   }
   :root {
@@ -534,5 +568,11 @@ select {
   }
   .fs_xsm_22 {
     font-size: 22px;
+  }
+  .head_img_width {
+    width: 100% !important;
+  }
+  .head_img_height {
+    height: 280px !important;
   }
 }
